@@ -15,7 +15,7 @@ const app = express();
 const PORT = 5000;
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://clipcue.netlify.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
